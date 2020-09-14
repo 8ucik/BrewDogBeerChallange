@@ -283,7 +283,7 @@ namespace BrewdogBeerTests
             {
                 if (!response.Content.Equals("[]"))
                 {
-                    Assert.IsFalse(response.Content.Contains(gb.BeverageName));
+                    Assert.AreNotEqual(response.Content, gb.BeverageName);
                     Assert.AreEqual(response.StatusCode, HttpStatusCode.BadRequest);
                 } 
                 else
@@ -296,6 +296,45 @@ namespace BrewdogBeerTests
                 Assert.Fail(errorMsg);
             }
         }
+
+        [TestMethod]
+        public void NullValueTest()
+        {
+            //arrange
+            client = new RestClient(url);
+            Helper.SetSerialization(client);
+            GetBeer b = new GetBeer("yeast", null);
+
+            request = new RestRequest(requestHeader, Method.GET);
+            request.RequestFormat = DataFormat.Json;
+            request.AddParameter(b.ParameterName, b.BeverageName);
+            Debug.DebugPars(request);
+
+            // act
+            response = (RestResponse)client.Execute(request);
+            int statusCode = Helper.ReturnHttpStatusCode(response);
+            string errorMsg = Helper.ReturnMessage(statusCode, response);
+            Debug.ShowOutput(response.Content);
+
+            // assert
+            if (!string.IsNullOrWhiteSpace(response.Content))
+            {
+                if (!response.Content.Equals("[]"))
+                {
+                    Assert.AreNotEqual(response.Content, b.BeverageName);
+                    Assert.AreEqual(response.StatusCode, HttpStatusCode.BadRequest);
+                }
+                else
+                {
+                    Assert.Fail("Error. The response.Content should return [] not {0}", response.Content);
+                }
+            }
+            else
+            {
+                Assert.Fail(errorMsg);
+            }
+        }
+
     }
 
     [TestClass]

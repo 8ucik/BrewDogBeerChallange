@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mKNY4PahwpY4X9cue6hKymL1MxIPk5veaUPVlBDdWdTGSB9SKInee8dz7vmzSzc9b4xOv752HZDdtIHmrInecg==",
+  "dgSpecHash": "6f/ttsMvrNhdOVPn+kANbMSqwPnHSLtMZzwrSNQscpVaFc7hoyfsc51AD/0S28+L1j7i22ByheLK2jcX4FuWrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\BrewdogBeerTests.csproj",
+  "projectFilePath": "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\BrewdogBeerTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\test\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\test\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

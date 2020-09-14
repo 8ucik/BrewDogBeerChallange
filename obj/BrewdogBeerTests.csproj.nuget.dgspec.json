@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\BrewdogBeerTests.csproj": {}
+    "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\BrewdogBeerTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\BrewdogBeerTests.csproj": {
+    "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\BrewdogBeerTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\BrewdogBeerTests.csproj",
+        "projectUniqueName": "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\BrewdogBeerTests.csproj",
         "projectName": "BrewdogBeerTests",
-        "projectPath": "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\BrewdogBeerTests.csproj",
+        "projectPath": "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\BrewdogBeerTests.csproj",
         "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\test\\Desktop\\workspace\\BrewBeerTests\\BrewdogBeerTests\\obj\\",
+        "outputPath": "C:\\Users\\test\\Desktop\\workspace\\repoNew\\BrewDogBeerChallange\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",

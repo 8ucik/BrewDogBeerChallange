@@ -14,10 +14,13 @@ namespace BrewdogBeerTests
                 }
                 else
                 {
-                    // This is a joke from my previous job. Made on purpose.
-                    System.Diagnostics.Debug.WriteLine("Something is no yes.");
+                    System.Diagnostics.Debug.WriteLine("Something is no yes."); //this is a joke from previous work.
                 }
             }
         }
+        public static void ShowOutput(string output)
+        {
+            System.Diagnostics.Debug.WriteLine(output);
+        } 
     }
 }
